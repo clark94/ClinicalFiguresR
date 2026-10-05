@@ -1,0 +1,22 @@
+Package: ClinicalFiguresR
+Type: Package
+Title: Standardized Clinical Trial Figures from ADaM-Style Data
+Version: 0.2.0
+Authors@R: person("Chancy", "Mampouya Clark", email = "ton.email@example.com", role = c("aut", "cre"))
+Description: Provides reusable functions for standardized clinical trial
+    visualizations and simple treatment comparisons using ADaM-style data.
+    The package currently supports adverse-event summaries, longitudinal
+    alanine aminotransferase profiles, change-from-baseline comparisons,
+    and forest plots with confidence intervals and p-values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Imports:
+    ggplot2,
+    dplyr,
+    rlang,
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3

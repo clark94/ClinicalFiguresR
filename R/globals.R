@@ -1,0 +1,10 @@
+utils::globalVariables(c(
+  "PARAM",
+  "AVAL",
+  "TRTA",
+  "AVISIT",
+  "AVISITN",
+  "moyenne",
+  "se",
+  "label"
+))
